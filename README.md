@@ -1,4 +1,4 @@
-# Bcrypt-Breaker# Bcrypt Breaker
+# Bcrypt Breaker
 
 Bcrypt Breaker is a multi-core bcrypt hash cracker tool written in Python. It uses the power of multiple CPU cores to efficiently attempt to crack bcrypt hashes using a wordlist.
 
