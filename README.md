@@ -1,37 +1,39 @@
 # Bcrypt Breaker
 
-Bcrypt Breaker is a multi-core bcrypt hash cracker tool written in Python. It uses the power of multiple CPU cores to efficiently attempt to crack bcrypt hashes using a wordlist.
+Bcrypt Breaker is a multi-core bcrypt hash cracker tool written in Python. It leverages the power of multiple CPU cores to efficiently attempt to crack bcrypt hashes using a wordlist.
 
-## Fitur
+## Features
 
-- **Multi-core cracking**: Memanfaatkan banyak CPU cores untuk mempercepat proses cracking.
-- **Bcrypt hash parsing**: Memecah dan mengidentifikasi informasi dari hash bcrypt.
-- **Tampilan progres**: Menggunakan `tqdm` untuk menampilkan progres cracking.
-- **Hasil penyimpanan**: Hasil cracking disimpan dalam file `result.txt`.
+- **Multi-core cracking**: Utilizes multiple CPU cores to speed up the cracking process.
+- **Bcrypt hash parsing**: Breaks down and identifies information from bcrypt hashes.
+- **Lightweight**: Optimized for performance and minimal resource usage, making it faster and less resource-intensive compared to similar tools.
+- **Progress display**: Uses `tqdm` to show the cracking progress in the terminal.
+- **Result saving**: Cracking results are saved in a `result.txt` file.
 
-## Persyaratan
+
+## Requirements
 
 - Python 3.x
-- Beberapa dependensi yang diperlukan (terdaftar di bawah)
+- A few required dependencies (listed below)
 
-## Instalasi
+## Installation
 
-1. Clone repositori ini:
+1. Clone this repository:
 
     ```bash
     git clone https://github.com/username/bcrypt-breaker.git
     cd bcrypt-breaker
     ```
 
-2. Instal dependensi yang diperlukan:
+2. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-## Penggunaan
+## Usage
 
-Untuk menggunakan tool ini, jalankan perintah berikut di terminal:
+To use this tool, run the following command in your terminal:
 
 ```bash
-python bcrypt_breaker.py --hash <BCRYPT_HASH> --wordlist <WORDLIST_PATH>
+python bb.py --hash <BCRYPT_HASH> --wordlist <WORDLIST_PATH>
