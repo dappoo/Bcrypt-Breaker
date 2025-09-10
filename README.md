@@ -40,5 +40,5 @@ python bb.py --hash <BCRYPT_HASH> --wordlist <WORDLIST_PATH>
 ```
 
 ## Warning
-- ## Make sure you have permission to attempt cracking the hashes you are working with. Using this tool for illegal purposes is prohibited. ##
-- ## Cracking may take time depending on the size of the wordlist and the bcrypt hash cost. ##
+- **BMake sure you have permission to attempt cracking the hashes you are working with. Using this tool for illegal purposes is prohibited**
+- **Cracking may take time depending on the size of the wordlist and the bcrypt hash cost**
